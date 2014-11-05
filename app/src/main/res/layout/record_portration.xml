@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:gravity="fill_horizontal|center_vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/time"
+            android:textColor="#ffff62d2"
+            android:textSize="60dp"
+            android:typeface="serif"
+            android:text="@string/startTime" />
+
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="greenlab.com.UI.UpsideDownText"
+            android:id="@+id/millesecond"
+            android:textSize="22dp"
+            android:text="@string/startTimeMillisecond"
+            android:textColor="#ff5f5b5c"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:id="@+id/stop"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_stop_selector" />
+
+        <ImageButton
+            android:layout_width="182dp"
+            android:layout_height="182dp"
+            android:id="@+id/change"
+            android:scaleType="fitXY"
+            android:background="@drawable/btn_play_selector" />
+
+    </LinearLayout>
+
+</LinearLayout>

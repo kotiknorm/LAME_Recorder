@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/user/AndroidStudioProjects/Mp3VoiceRecorderSampleForAndroid-master/app/build/intermediates/pre-dexed/debug/eventbus-2.2.1-a1b3763d41f0bc7b58a1b55b556a303ff4bc2369.jar"
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.2.1/a18ff12a9ab5ae52fd30d42f134517997568231e/eventbus-2.2.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e"/>
+
+</pre-dex-items>

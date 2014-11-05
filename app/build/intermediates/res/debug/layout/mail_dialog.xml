@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_info"
+        android:id="@+id/textView"
+        android:textColor="#ffff62d2"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:hint="@string/mail_hint"
+        android:gravity="center_vertical|center_horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#142a2d2f"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:background="@drawable/cancel_btn_selector"
+            android:layout_marginRight="2dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:id="@+id/send"
+            android:layout_weight="1"
+            android:background="@drawable/send_btn_selector"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/layout/mail_dialog.xml -->

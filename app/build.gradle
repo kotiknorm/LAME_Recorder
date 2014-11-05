@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "greenlab.com"
+        minSdkVersion 15
+        targetSdkVersion 15
+
+        ndk {
+            moduleName "mp3lame"
+        }
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: "$buildDir/native-libs", include: 'native-libs.jar')
+}
+
+task nativeLibsToJar(type: Zip, description: 'create a jar archive of the native libs') {
+    destinationDir file("$buildDir/native-libs")
+    baseName 'native-libs'
+    extension 'jar'
+    from fileTree(dir: 'src/main/libs', include: '**/*.so')
+    into 'lib/'
+}
+
+tasks.withType(Compile) {
+    compileTask -> compileTask.dependsOn(nativeLibsToJar)
+}

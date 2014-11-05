@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res" >
+            <file
+                name="slide_in_left_new_fr"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/animator/slide_in_left_new_fr.xml"
+                qualifiers=""
+                type="animator" />
+            <file
+                name="slide_in_left_old_fr"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/animator/slide_in_left_old_fr.xml"
+                qualifiers=""
+                type="animator" />
+            <file
+                name="slide_in_right_new_fr"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/animator/slide_in_right_new_fr.xml"
+                qualifiers=""
+                type="animator" />
+            <file
+                name="slide_in_right_old_fr"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/animator/slide_in_right_old_fr.xml"
+                qualifiers=""
+                type="animator" />
+            <file
+                name="btn_pause_selector"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/btn_pause_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_play_selector"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/btn_play_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_stop_selector"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/btn_stop_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="cancel_btn_selector"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/cancel_btn_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="dict"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/dict.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="eject"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/eject.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_action_tick"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/ic_action_tick.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pause"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/pause.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pause_click"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/pause_click.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="play"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/play.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="play_click"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/play_click.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="send_btn_selector"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/send_btn_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="skip_forward"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/skip_forward.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stop"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/stop.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stop_click"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable/stop_click.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="mail_dialog"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/layout/mail_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main_layout"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/layout/main_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="notification_popup"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/layout/notification_popup.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="record_landscape"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/layout/record_landscape.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="record_portration"
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/layout/record_portration.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="white" >#ffff0a09
+                </color>
+                <color name="white_dark" >#ffab0505
+                </color>
+            </file>
+            <file
+                path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >LAME Recorder
+                </string>
+                <string name="notification_text" >Диктофон в активном состоянии
+                </string>
+                <string name="notification_time" >Время записи:
+                </string>
+                <string name="cancel" >Отмена
+                </string>
+                <string name="startTime" >00:00:00
+                </string>
+                <string name="notification_record_start" >Запись началась
+                </string>
+                <string name="mail_hint" >Почтовый ящик
+                </string>
+                <string name="send" >Отправить
+                </string>
+                <string name="error_code" >error code: %1$s
+                </string>
+                <string name="send_lame" >Отправить запись в LAME
+                </string>
+                <string name="error_service_unbind" >Прежде чем отправлять запись нужно ее начать
+                </string>
+                <string name="mail_info" >Введите почту на которую \n  будет отправлена запись
+                </string>
+                <string name="startTimeMillisecond" >000
+                </string>
+            </file>
+        </source>
+        <source path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/build/generated/res/rs/debug" />
+        <source path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/user/AndroidStudioProjects/Android_challenge/LAME_Recorder/app/src/debug/res" />
+    </dataSet>
+
+</merger>
